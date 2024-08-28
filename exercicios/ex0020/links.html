@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: 
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            color: darkred;
+            background-color: rgb(255, 140, 140);
+            
+        }
+        
+        .especial::before {
+            content: '↦ ';
+        }
+
+        .especial::after {
+            content: ' ↤';
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://wa.me/558688171603" target="_blank">Whatsapp</a></li>
+        <li><a href="https://www.instagram.com/tiagohq20/?next=%2F" target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://github.com/Tiagohq20" target="_blank">Github</a></li>
+    </ul>
+    
+</body>
+</html>
